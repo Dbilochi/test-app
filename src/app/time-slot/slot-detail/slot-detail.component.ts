@@ -32,5 +32,9 @@ export class SlotDetailComponent implements OnInit {
       localStorage.setItem(this.slot_id , JSON.stringify(value));
       this.router.navigate(['/']);
     }
- }
+  }
+
+  back(){
+    this.router.navigate(['/']);
+  }
 }
