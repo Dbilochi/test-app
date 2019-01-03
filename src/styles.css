@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import "assets/css/bootstrap.css";*/
+/*@import "assets/css/bootstrap.css";*/
+
+html, body {height: 100%;}
+
+body {padding: 0px; margin: 0px; font-size: 14px; font-family: 'Roboto', sans-serif; font-weight: 400; background: #f0f0f5;}
+body.login-bg {background: linear-gradient(to top right, rgba(255,82,99,0.9) 10%, rgba(255,115,129,0.9) 65%, rgba(252,189,1,0.9) 125%);}
+
+select::-ms-expand {display: none;}
+
+.select-slot {
+  background: #f0f0f5;
+  height: 100%;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+/* button */
+.btn {padding: 15px 50px; font-size: 14px; color: #fff; text-transform: uppercase; font-weight: 400; line-height: 1; border: 0px; border-radius: 50px; transition: all 0.5s;}
+.btn.btn-primary {background: #40E0D0; background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); background-size: 200%;}
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:not(:disabled):not(.disabled):active:focus {box-shadow:0 0 10px rgba(0, 0, 0, 0.3); background-position: right center;}
+
+
+
+
+
+/* form */
+.form-group {padding: 0px; margin: 0px 0 25px;}
+.form-group label {padding: 0px; margin: 0px 0 10px; font-size: 12px; font-weight: 400; line-height: 1; display: block; color: #848f99;}
+.form-group .form-control {padding: 15px 20px; margin:0; font-size: 14px; font-weight: 400; line-height: 1; display: block; height: auto; border-color: #d7d7de; color: #333333;}
+.form-group .form-control:focus {box-shadow: none; border-color: #999;}
+.form-group select.form-control {background: url(/assets/images/select-arrow.png) 98% 50% no-repeat; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+
+
+/* slot */
+.slot-bg {padding: 0px; margin: 0px;}
+.slot-bg .logo {padding: 0px; margin: 0px 0 30px; display: block;}
+.slot-bg .slot-boxs {padding: 0px; margin: 0px; display: block; border-radius: 5px; background: #fff; padding: 30px 40px;}
+.slot-bg .slot-boxs h3 {font-size: 36px; color: #000; font-weight: 300; margin: 0px 0 30px; display: block;}
+.slot-bg .slot-boxs p {font-size: 12px; color: #000; font-weight: 400; margin: 0px 0 25px; display: block;}
+
+
+
+.slots {text-align: center; padding: 25px;}
+.slots h1 {font-size: 30px;font-weight: 500; border-bottom: 1px solid #a9a9a9; padding-bottom: 20px; color: #676363;}
+.slots .time-slots {padding: 0;margin: 0;list-style-type: none; display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 15px;}
+.slots .time-slots li {margin: 0 7px;}
+.slot-bg .slot-boxs h3 {color: #676363;}
